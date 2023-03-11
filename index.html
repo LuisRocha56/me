@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickert de Compra</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+<body>
+    <ion-menu content-id="paginaprincipal" type="reveal">
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Contenido del Menú</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">Hola.</ion-content>
+      </ion-menu>
+
+      <div class="ion-page" id="paginaprincipal">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Ticket de compra</ion-title>
+          </ion-toolbar>
+          <!-- CÓDIGO DEL TICKET DE COMPRA-->
+
+          <!--este es codigo de la notificación-->
+    <!--<div>
+        <div class="caja" id="verde">
+            <div class="texto">
+                <h5 style="font-weight: bold;">Exito</h5>
+                <p>El articulo ha sido añadido</p>
+            </div>
+            <ion-buttons start>
+                <ion-button onclick="cerrarCaja('verde')">x</ion-button>
+            </ion-buttons>
+        </div>
+   este es codigo de la notificación-->
+    
+    </div>
+    <div class="contenedor">
+        <div>
+            <div id="ticket">
+                <h2 style="font-weight: bold;">Ticket de Compra</h2>
+                <p>
+                    <ion-label class="labelart" for="articulo">Articulo: </ion-label>
+                    <ion-input placeholder="Nombre de Articulo" type="text" id="articulo" class="inputArt">
+                </p>
+                <p>
+                    <ion-label class="labelpre" for="precio">Precio: </ion-label>
+                    <ion-input placeholder="Precio de Articulo" type="number" id="precio" class="inputPre">
+                </p>
+                <!--la propiedad expand=block hace que se expanda el boton a lo largo de la pag o div -->
+                <!--<ion-buttons start>-->
+                <ion-button1 class="ion-buttonbotoncalcular" expand="block" shape="round" onclick="agregarATicket()">Calcular</ion-button1>
+                <ion-button2 expand="block" shape="round" onclick="presentarAlerta()">Calcular 2</ion-button2>
+                <!--</ion-buttons>-->
+            
+            </div>
+            <div id="ticketCompra">
+                <p>======El ticket de su compra======</p>
+                <!-- Lista de Tickets aqui -->
+                <ion-list id="listaArticulos">
+                    
+                </ion-list>
+                <p id="total">Total: $</p>
+            </div>
+        </div>
+    </div>
+          <!-- CÓDIGO DEL TICKET DE COMPRA-->
+
+        </ion-header>
+        <ion-content class="ion-padding">
+          Bienvenidos al programa de ticket de compra
+        </ion-content>
+      </div>
+</body>
+
+<script src="presentAlert.js"></script>
+<script src="calcular.js"></script>
+</html>

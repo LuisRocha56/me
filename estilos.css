@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+} 
+
+  body{
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .contenedor{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #ticket{
+    margin-bottom: 20px;
+  }
+  #ticket h2{
+    margin-bottom: 30px;
+  }
+
+/*
+.labelpre{
+  display: inline;
+  vertical-align: middle;
+}
+
+.labelart{
+  display: inline;
+  vertical-align: middle;
+}
+*/
+
+/*ESTILO DE INPUT DE PRECIO Y ARTICULO*/
+  .inputPre {
+    background-color: rgb(164, 164, 164);
+    margin-bottom: 10x;
+    font-family: sans-serif;
+    font-size: 10;
+    border-color: transparent;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 20px 0px 10px 20px;
+    color: antiquewhite;
+  }
+
+  .inputArt{
+    background-color: rgb(164, 164, 164);
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0px 10px 0px 20px;
+    color: antiquewhite;
+    
+  }
+/*ESTILO DE INPUT DE PRECIO Y ARTICULO*/
+
+  button{
+    width: 90%;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  /*ESTILO DEL BOTON DE CALCULAR*/
+  ion-button1{
+    background: purple;
+    display: block;
+    color: white;
+    border-radius: 20px;
+    margin: 20px 10px 10px 40px;
+    padding: 10px;
+  }
+
+  ion-button2{
+    background: purple;
+    display: block;
+    color: white;
+    border-radius: 20px;
+    margin: 20px 10px 10px 40px;
+    padding: 10px;
+  }
+  /*ESTILO DEL BOTON DE CALCULAR*/
+
+  li{
+    list-style-type: none;
+    text-align: left;
+  }
+
+
+
+  .caja button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    width: 15%;
+  }
+
+.texto{
+width: 200%;
+padding-left: 10px;
+}
+
+/*PROPIEDADES DE LA CAJA DE NOTIFICACIÓN*/
+.caja{
+    display: flex;
+    border-radius: 16px;
+    border-style: solid;
+    border-left-width: 16px;
+    border-width: 1px 1px 1px 20px;
+    margin: 0px auto;
+    padding: 5px;
+    padding-left: 10px;
+    width: 500px;
+    transform: translateY(200%);
+
+}
+#verde{
+  background-color: #A1F7B7;
+  border: 3px solid #29C945;
+  border-width: 1px 1px 1px 20px;
+}
+/*PROPIEDADES DE LA CAJA DE NOTIFICACIÓN*/
+
+h5 {
+  color: #087b1d;
+}
