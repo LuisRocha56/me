@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { Page404Component } from './page404/page404.component';
+import { HomeinicioComponent } from './homeinicio/homeinicio.component';
 
 const routes: Routes = [
   
@@ -14,7 +15,10 @@ const routes: Routes = [
   {path: 'login',component: LoginComponent},
   {path: 'perfil',component: PerfilComponent},
   {path: 'busqueda',component: BusquedaComponent},
-  {path: '**', component: Page404Component},
+  {path: 'homeinicio', component: HomeinicioComponent},
+  {path: 'busqueda', component: BusquedaComponent},
+  
+  {path: '**', component: Page404Component}
   
 ];
 

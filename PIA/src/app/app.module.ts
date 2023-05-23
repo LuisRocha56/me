@@ -9,11 +9,38 @@ import { AppRoutingModule } from './app-routing.module';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { HomeinicioComponent } from './homeinicio/homeinicio.component';
+
+
+//Firebase
+import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+
+//importar firebaseconfig
+import {environment} from '../environments/environment.prod';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
-  declarations: [AppComponent, InicioComponent, LoginComponent, PerfilComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  declarations: [
+    AppComponent, 
+    InicioComponent, 
+    LoginComponent, 
+    PerfilComponent, 
+    HomeinicioComponent, 
+    BusquedaComponent
+  ],
+  imports: [
+    BrowserModule, 
+    IonicModule.forRoot(), 
+    AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+    provideFirestore(() => getFirestore()),
+  ],
+  providers: [{ 
+    provide: RouteReuseStrategy, 
+    useClass: IonicRouteStrategy 
+  }],
+
   bootstrap: [AppComponent],
 })
 export class AppModule {}

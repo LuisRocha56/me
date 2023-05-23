@@ -1,3 +1,34 @@
-<p>
-  busqueda works!
-</p>
+<ion-app>
+  <div class="divbusqueda">
+      <ion-searchbar show-clear-button="always" placeholder="Buscar"></ion-searchbar>
+  </div>
+
+  <div class="fotos">
+    <ion-content>
+      <p>Busquedas recientes</p>
+    </ion-content>
+    <ion-card>
+
+    </ion-card>
+  </div>
+  
+
+  <div class="inferior" >
+    <ion-item class="item1" lines="none" color="negro">
+      <div>
+        <ion-icon routerLink="/homeinicio" class="iconhome" color="gris" name="home-sharp">  </ion-icon>
+        <p class="ion-text-center">Inicio</p>
+      </div>
+      
+      <div>
+        <ion-icon routerLink="/busqueda" class="iconsearch" color="gris" name="search-outline">  </ion-icon>
+        <p class="ion-text-center">Buscar</p>
+      </div>
+      
+      <div>
+        <ion-icon routerLink="/libreria" class="iconlibreria" color="gris" name="library-sharp">  </ion-icon>
+        <p class="ion-text-center">Libreria</p>
+      </div>
+    </ion-item>
+  </div>
+</ion-app>
