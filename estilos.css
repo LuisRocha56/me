@@ -63,7 +63,7 @@
   }
 /*ESTILO DE INPUT DE PRECIO Y ARTICULO*/
 
-  button{
+  /*button{
     width: 90%;
     background-color: transparent;
     border-radius: 20px;
@@ -71,6 +71,18 @@
     padding: 10px;
     font-family: sans-serif;
     font-size: 20px;
+  }*/
+
+  ion-button {
+    width: 90%;
+    background-color: orange;
+    border-radius: 20px;
+    border-color: orange;
+    color: black;
+    font-family: sans-serif;
+    margin: 20px 10px -20px 30px;
+    font-size: 20px;
+    
   }
 
   /*ESTILO DEL BOTON DE CALCULAR*/
