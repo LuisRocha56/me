@@ -1,0 +1,28 @@
+<ion-app>
+  <div class="divpadre">
+    <ion-item class="item1" lines="none" color="negro">
+      <ion-icon routerLink="/homeinicio" class="icon" color="gris" name="add">  </ion-icon>
+       <ion-label class="ion-text-center"></ion-label>
+    </ion-item>
+  
+    <div>
+      <div class="ion-align-items-center"><img src="assets/leonlarregui.jpg" width="80" height="80" class="fotoperfil"></div>
+      <ion-button class="siguiente">Cambiar foto</ion-button>
+    </div>
+  
+    <div style="display:flex;" id="hijo">
+      <ion-label class="labelplaylist">23 <br> Playlist</ion-label>
+      <ion-label class="labelseguidores">58 <br> Seguidores</ion-label>
+      <ion-label class="labelsiguiendo">43 <br> Siguiendo</ion-label>
+    </div>
+  
+    <div class="inferior" >
+    <div>
+      <div *ngFor="let album of al" class="labelcanciones">
+        <img src="assets/leonlarregui.jpg" class="fotoperfil" width="80" height="80">
+        {{album.nombre}} <br> <label class="labelcanciones">0 canciones</label></div>
+    </div>
+    
+    </div>
+  </div>
+  </ion-app><div>

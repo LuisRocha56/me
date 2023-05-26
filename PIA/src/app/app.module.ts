@@ -10,6 +10,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { HomeinicioComponent } from './homeinicio/homeinicio.component';
+import { LibreriaComponent } from './libreria/libreria.component';
 
 
 //Firebase
@@ -27,7 +28,8 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     LoginComponent, 
     PerfilComponent, 
     HomeinicioComponent, 
-    BusquedaComponent
+    BusquedaComponent,
+    LibreriaComponent
   ],
   imports: [
     BrowserModule, 
