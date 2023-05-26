@@ -1,0 +1,74 @@
+/*-----------PROPIEDADES LABEL Y CAJATEXTO DEL USUARIO----------------*/
+.cajausuario {
+    display: inline-block;
+    margin: 20px 10px 15px 30px;
+    border-color: transparent;
+    background-color: darkgrey;
+    color: black;
+}
+
+/*.labelusuario {
+    display: inline-block;
+    margin: 10px 30px;
+}*/
+
+/*-----------PROPIEDADES LABEL Y CAJATEXTO DE LA CONTRASEÑA----------------*/
+.cajacontra {
+    display: inline-block;
+    margin: -10px;
+    border-color: transparent;
+    background-color: darkgrey;
+    color: black;
+    margin: 0px 20px 20px 13px;
+}
+
+/*.labelcontra {
+    display: inline-block;
+    margin: 15px 30px;
+}*/
+
+/*-----------PROPIEDADES DE LOS BOTONES----------------*/
+button{
+    display: block;
+}
+
+#botoningresar {
+    margin: 0px 0px 15px 60px;
+    border-radius: 18px;
+    border-color: transparent;
+    background-color: rgb(111, 27, 124);
+    color: white;
+    font-size: 15px;
+    padding: 5px 63px 5px 63px;
+    border-bottom: 4px solid #ce1bff;
+    font-family: Roboto;
+}
+
+#botonregistro {
+    margin: 15px 0px 15px 60px;
+    border-radius: 18px;
+    border-color: transparent;
+    background-color: rgb(111, 27, 124);
+    color: white;
+    font-size: 15px;
+    padding: 5px 50px 5px 50px;
+    border-bottom: 4px solid #ce1bff;
+    font-family: Roboto;
+}
+
+#botonregistro:focus {
+    border-bottom: 4px solid #ff1b1b;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.mostrar {
+    border-color: transparent;
+    background-color: transparent;
+    margin: 0px 0px 0px 80px;
+}
+/*-----------PROPIEDADES DE LOS BOTONES----------------*/
+
+.divgeneral {
+    padding: 200px 0px 0px 30px;
+}

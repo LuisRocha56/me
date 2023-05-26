@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="divgeneral">
+        Usuario: <input type="text" name="usuario" id="cajausuario" class="cajausuario"  placeholder="Usuario"  required > 
+        <br>
+        Contraseña:<input type="password" name="pass" id="cajacontra" class="cajacontra"  placeholder="Contraseña"  required>
+        <button class="mostrar" onclick="mostrar()">mostrar contraseña</button>
+        <br>
+        <button id="botoningresar" onclick="ingresar()" type="submit">Ingresar</button>
+        <button id="botonregistro" onclick="registro()">Registrarme</button>
+    </div>
+</body>
+
+<script src="scriptcontrasena.js"></script>
+
+</html>
