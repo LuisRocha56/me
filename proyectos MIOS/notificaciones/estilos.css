@@ -1,0 +1,80 @@
+.caja{
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#verde {
+    background-color: #A1F7B7;
+    margin: 5px;
+    border: 3px solid #29C945;
+}
+
+#amarillo {
+    background-color: #FFFEA0;
+    margin: 5px;
+    border: 3px solid #C7C407;
+}
+
+#roja {
+    background-color: rgb(228, 140, 140);
+    margin: 5px;
+    border: 3px solid #E82525;
+}
+
+/*h5{
+    margin: 20px;
+    
+}*/
+
+/*p {
+    padding: 20px;
+}*/
+
+/*.divbutton{
+    flex-direction: row;
+    border-color: transparent;
+    background-color: transparent;
+    text-align: center;
+    float: right;
+}*/
+
+.button {
+    /*border-color: transparent;
+    background-color: transparent;*/
+
+    float: right;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px transparent;
+    border-radius: 4px;
+}
+
+/*estilos de los textos de la caja verde*/ 
+.exito {
+    margin: 10px 0px 0px 20px;
+    color: #29C945 ;
+}
+
+.textV {
+    margin: 10px 0px 10px 20px; /*el primero es para arriba, el segundo para la derecha, el tercero para abajo y el cuerto para la izquierda*/
+}
+
+/*estilos de la caja roja*/
+.peligro {
+    margin: 10px 0px 0px 20px;
+    color: #E82525;
+}
+
+.textR {
+    margin: 10px 0px 10px 20px;
+}
+
+/*estilos de la caja amarilla*/
+.adevertencia {
+    margin: 10px 0px 0px 20px;
+    color: #C7C407;
+}
+
+.textA {
+    margin: 10px 0px 10px 20px;
+}

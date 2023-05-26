@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de Notificacion</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="caja" id="verde">
+        <div>
+            <button class="button" onclick="cerrarCajaVerde()">x</button>
+            <h4 class="exito">Exito</h4>
+            <h5 class="textV"><b>Si jalo </b></h5>
+        </div>    
+    </div>
+   
+
+    <div class="caja" id="amarillo">
+        <div>
+            <button class="button" onclick="cerrarCajaAmarillo()">x</button>
+            <h4 class="adevertencia">Advertencia</h4>
+            <h5 class="textA">Al tiro :P</h5>
+        </div>
+    </div>
+
+    
+    <div class="caja" id="roja">
+        <div>
+            <button class="button"onclick="cerrarCajaRoja()">x</button>
+            <h4 class="peligro">Peligro</h4>
+            <h5 class="textR">Ups :P</h5>
+        </div>
+    </div>
+    
+
+    <div id="contenido">
+        <!--Contenido aqui-->
+    </div>
+</body>
+
+<script src="botones.js"></script>
+
+</html>

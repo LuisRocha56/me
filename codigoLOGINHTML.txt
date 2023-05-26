@@ -1,0 +1,21 @@
+<ion-item class="item1" lines="none" color="negro">
+  <ion-icon routerLink="/inicio" class="icon" color="gris" name="arrow-back-circle-outline">  </ion-icon>
+  <ion-label class="ion-text-center">Crear una cuenta</ion-label>
+</ion-item>
+
+<ion-content [fullscreen]="true">
+  <!--<ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>-->
+<br>
+<br>
+  <div  class="posicion">
+    <ion-label class="labelCorreo">Elige tu contraseña</ion-label>
+    <ion-textarea class="cajatexto" placeholder="Contraseña"></ion-textarea>
+  </div>
+
+  <ion-button routerLink="/login" class="siguiente">Siguiente</ion-button>
+</ion-content>
+

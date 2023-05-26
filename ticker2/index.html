@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickert de Compra</title>
+    <link rel="stylesheet" href="stylep2.css">
+</head>
+<body>
+    <div class="contenedor1">
+        <div class="caja" id="verde">
+            <div class="texto">
+                <h5>Exito</h5>
+                <p>Artículo añadido correctamente </p>
+            </div>
+            <button onclick="cerrarCaja('verde')">x</button>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div>
+            <div id="ticket">
+                <h2>Ticket de Compra</h2>
+                <p>
+                    <label for="articulo">Articulo: </label>
+                    <input type="text" id="articulo" class="campo-texto">
+                </p>
+                <p>
+                    <label for="precio">Precio: </label>
+                    <input type="number" id="precio" class="campo-texto">
+                </p>
+                <button id="calcularBTN" onclick="agregarATicket()">Calcular Total</button>
+            
+            </div>
+            <div id="ticketCompra">
+                <p>======TU TICKET DE COMPRA======</p>
+                <!-- Lista de Tickets aqui -->
+                <ul id="listaArticulos">
+                    
+                </ul>
+                <p id="total">Total: $</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scriptp2.js"></script>
+</html>
